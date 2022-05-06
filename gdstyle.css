@@ -1,0 +1,154 @@
+h2{
+	color: red;
+	text-align: center;
+	position: center;
+	padding: 10px;
+
+}
+p{
+	color: white;
+	display: flex;
+	text-align: center;
+	margin-right: 30px;
+	margin-left: 30px;
+
+}
+.nav{
+ border-style: solid;
+ border-color: gold;
+ background: url(88.jpg);
+ border-image-repeat: none;
+
+}
+.img{
+	width: 200px;
+	height: 200px;
+}
+.mise{
+	color:rgb(800,100,831);
+	float: left;
+	width: 300px;
+	padding: 20px;
+	margin-left: 60px;
+	display: inline-block;
+	border-style: solid;
+	border-radius: 20px;
+	background-color: black;
+
+}
+.tyg{
+	color:rgb(800,100,831);
+	float: left;
+	width: 300px;
+	padding: 20px;
+	margin-left: 60px;
+	border-style: solid;
+	border-radius: 20px;
+	background-color: black;
+}
+.lion{
+	color:rgb(800,100,831);
+	float: left;
+	width: 300px;
+	padding: 20px;
+	margin-left: 60px;
+	border-style: solid;
+	border-radius: 20px;
+	background-color: orange;
+}
+
+.bar{
+	display: flex;
+	animation: 2px;
+
+}
+h3{
+	color: gold;
+}
+h4{
+	color: gold;
+}
+h5{
+	color: gold;
+}
+.img1{
+position: relative;
+animation-name: bg1;
+animation-duration: 39s;
+background-image: url(h6.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin-top: 20px;
+top: 0px;
+width: 300px;
+height: 300px;
+
+
+}
+@keyframes bg1{
+	20%{background-image: url(h3.jpg);} 
+	56%{background-image: url(h5.jpg);}	
+	30% {background-image: url(ih1.jpg);}
+	40% {background-image: url(ih5.jpg);}
+	70% {background-image: url(nat5.jpg);}
+	80% {background-image: url(ih3.jpg);}
+	62% {background-image: url(ih2.jpg);} 
+	50% {background-image: url(ih1.jpg);} 
+	     
+}
+
+.img2{
+  width: 300px;
+  height: 300px;
+position: relative;
+animation-name: bg2;
+animation-duration: 50s;
+background-image: url(.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin-top: 20px;
+top: 0px;
+width: 150px;
+height: 150px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+
+
+}
+@keyframes bg2{
+	20%{background-image: url(.jpg);} 
+	56%{background-image: url(.jpg);}	
+	30% {background-image: url(.jpg);}
+	40% {background-image: url(.jpg);}
+	70% {background-image: url(.jpg);}       
+}
+
+.img3{
+ width: 300px;
+ height: 300px;
+position: relative;
+animation-name: bg3;
+animation-duration: 37s;
+background-image: url(.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin-top: 20px;
+top: 0px;
+width: 150px;
+height: 150px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+
+
+}
+@keyframes bg3{
+	20%{background-image: url(.jpg);} 
+	56%{background-image: url(.jpg);}	
+	30% {background-image: url(.jpg);}
+	40% {background-image: url(.jpg);}
+	70% {background-image: url(.jpg);}       
+}
+

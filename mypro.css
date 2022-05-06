@@ -1,0 +1,115 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	justify-content: scenter;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'jast'sans-serif;
+	background: linear-gradient(to bottom);
+	background: url(img2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.main{
+	width: 50px;
+	height: 100px;
+	overflow: hidden;
+	background: url(img.jpg)no-repeat center;
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #ffjsaS;
+	text-align: center;
+	margin-left: 480px;
+	margin-top: 100px;
+	border: hidden;
+
+}
+
+h2{
+	height: 10px;
+	width: 100px;
+	border-bottom: 50px;
+	text-align: center;
+	justify-content: center;
+	padding: 30px;
+
+
+}
+.signup,form{
+	position: relative;
+	width: 300px;
+	height: 50px;
+	margin-left:47px;
+}
+h2{
+	color: gray;
+	font-size: 20px;
+	justify-content: center;
+	display: flex;
+	margin: 16px;
+}
+ div input{
+	width: 100px;
+	height: 20px;
+	background: rgb(228,723,317);
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+
+}
+button{
+	width: 80px;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: flex;
+	background: rgb(218,730, 13.20);
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: red;
+}
+.main{
+			border-style: solid;
+			border-radius: 30px;
+			width: 500px;
+			height: 500px;
+			text-align: center;
+			border: hidden;
+}
+.btn{
+	
+	text-align: center;
+	padding: 10px;
+	color: black;
+}
+ .signup,h2{
+	margin-left: 60px;
+}
+ h2:hover{
+	background: rgb(3.83,48.3,4.48);
+}
+h2{
+	border-style: solid;
+	border-radius: 20px;
+	color: rgb(03.338,82.30,92.30);
+	background-color: rgb(003.4,20.33,31.10);
+}
+input:hover{
+	background: rgb(377,289,482);
+	border-style: solid;
+	border-radius: 20px;
+}
